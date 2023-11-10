@@ -21,13 +21,4 @@ class GameScene: Crynon.Scene {
         addLight(light)
         light.setPos(simd_float3(3, 4, 2))
     }
-    
-    var x = false
-    override func tickCustom(_ deltaTime: Float) {
-        if x == false {
-            AssetLibrary.textures.addTexture(textureName: "hdr")
-            x = true
-            Preferences.useSkySphere = true
-        }
-    }
 }

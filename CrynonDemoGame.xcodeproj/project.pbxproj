@@ -58,7 +58,7 @@
 		515642E52AF167E900E1CB91 /* CrynonDemoGame */ = {
 			isa = PBXGroup;
 			children = (
-				5172036A2AF816BF007D07C3 /* hdr.png */,
+				51ACF7DB2AFAC57D000D1C8D /* Content */,
 				515642E62AF167E900E1CB91 /* CrynonDemoGameApp.swift */,
 				515642EA2AF167EA00E1CB91 /* Assets.xcassets */,
 				515642EF2AF167EA00E1CB91 /* CrynonDemoGame.entitlements */,
@@ -74,6 +74,22 @@
 				515642ED2AF167EA00E1CB91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51ACF7DB2AFAC57D000D1C8D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				5172036A2AF816BF007D07C3 /* hdr.png */,
+				51ACF7DC2AFAC583000D1C8D /* Meshes */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		51ACF7DC2AFAC583000D1C8D /* Meshes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Meshes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -5,12 +5,18 @@ import Crynon
 @main
 struct CrynonDemoGameApp: App {
     
-    @StateObject private var core = Core()
+    private var core: Core = Core()
     
     init() {
+        core = Core()
+        loadContent()
         Crynon.Preferences.preferredFPS = 60
-        Preferences.clearColor = MTLClearColor(red: 0.5, green: 0.7, blue: 1.0, alpha: 1.0)
+        Crynon.Preferences.useSkySphere = true
         Crynon.SceneManager.changeScene(GameScene())
+    }
+    
+    func loadContent() {
+        AssetLibrary.textures.addTexture(textureName: "hdr")
     }
     
     var body: some SwiftUI.Scene {
