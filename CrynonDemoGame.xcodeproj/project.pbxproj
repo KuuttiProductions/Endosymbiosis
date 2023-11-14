@@ -12,6 +12,9 @@
 		515642EE2AF167EA00E1CB91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515642ED2AF167EA00E1CB91 /* Preview Assets.xcassets */; };
 		515642F72AF16A7200E1CB91 /* Crynon in Frameworks */ = {isa = PBXBuildFile; productRef = 515642F62AF16A7200E1CB91 /* Crynon */; };
 		515642F92AF2A83A00E1CB91 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515642F82AF2A83A00E1CB91 /* GameScene.swift */; };
+		5162C26B2B03C53400BEF6C3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26A2B03C53400BEF6C3 /* Player.swift */; };
+		5162C26D2B03CA5300BEF6C3 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */; };
+		5162C26F2B03CED200BEF6C3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26E2B03CED200BEF6C3 /* Cell.swift */; };
 		517203692AF8160B007D07C3 /* Crynon in Frameworks */ = {isa = PBXBuildFile; productRef = 517203682AF8160B007D07C3 /* Crynon */; };
 		5172036B2AF816BF007D07C3 /* hdr.png in Resources */ = {isa = PBXBuildFile; fileRef = 5172036A2AF816BF007D07C3 /* hdr.png */; };
 /* End PBXBuildFile section */
@@ -23,6 +26,9 @@
 		515642ED2AF167EA00E1CB91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		515642EF2AF167EA00E1CB91 /* CrynonDemoGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrynonDemoGame.entitlements; sourceTree = "<group>"; };
 		515642F82AF2A83A00E1CB91 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5162C26A2B03C53400BEF6C3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
+		5162C26E2B03CED200BEF6C3 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		5172036A2AF816BF007D07C3 /* hdr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdr.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +70,9 @@
 				515642EF2AF167EA00E1CB91 /* CrynonDemoGame.entitlements */,
 				515642EC2AF167EA00E1CB91 /* Preview Content */,
 				515642F82AF2A83A00E1CB91 /* GameScene.swift */,
+				5162C26A2B03C53400BEF6C3 /* Player.swift */,
+				5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */,
+				5162C26E2B03CED200BEF6C3 /* Cell.swift */,
 			);
 			path = CrynonDemoGame;
 			sourceTree = "<group>";
@@ -170,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5162C26D2B03CA5300BEF6C3 /* Bacteria.swift in Sources */,
 				515642F92AF2A83A00E1CB91 /* GameScene.swift in Sources */,
+				5162C26F2B03CED200BEF6C3 /* Cell.swift in Sources */,
+				5162C26B2B03C53400BEF6C3 /* Player.swift in Sources */,
 				515642E72AF167E900E1CB91 /* CrynonDemoGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,7 +323,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				GENERATE_PROFILING_CODE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Strait Of Magellan";
+				INFOPLIST_KEY_CFBundleDisplayName = Endosymbiosis;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
 				INFOPLIST_KEY_MetalCaptureEnabled = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -342,7 +354,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				GENERATE_PROFILING_CODE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Strait Of Magellan";
+				INFOPLIST_KEY_CFBundleDisplayName = Endosymbiosis;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
 				INFOPLIST_KEY_MetalCaptureEnabled = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
