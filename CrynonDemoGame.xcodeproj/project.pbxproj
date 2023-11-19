@@ -17,6 +17,12 @@
 		5162C26F2B03CED200BEF6C3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26E2B03CED200BEF6C3 /* Cell.swift */; };
 		517203692AF8160B007D07C3 /* Crynon in Frameworks */ = {isa = PBXBuildFile; productRef = 517203682AF8160B007D07C3 /* Crynon */; };
 		5172036B2AF816BF007D07C3 /* hdr.png in Resources */ = {isa = PBXBuildFile; fileRef = 5172036A2AF816BF007D07C3 /* hdr.png */; };
+		51E3FEF42B09F82F00725A7A /* Nucleus.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51E3FEF12B09F82F00725A7A /* Nucleus.obj */; };
+		51E3FEF52B09F82F00725A7A /* Nucleus.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51E3FEF22B09F82F00725A7A /* Nucleus.mtl */; };
+		51E3FEF62B09F82F00725A7A /* NucleusColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E3FEF32B09F82F00725A7A /* NucleusColor.png */; };
+		51E3FEFA2B09F84C00725A7A /* CellMembraneColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E3FEF72B09F84C00725A7A /* CellMembraneColor.png */; };
+		51E3FEFB2B09F84C00725A7A /* CellMembrane.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51E3FEF82B09F84C00725A7A /* CellMembrane.mtl */; };
+		51E3FEFC2B09F84C00725A7A /* CellMembrane.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51E3FEF92B09F84C00725A7A /* CellMembrane.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
 		5162C26E2B03CED200BEF6C3 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		5172036A2AF816BF007D07C3 /* hdr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdr.png; sourceTree = "<group>"; };
+		51E3FEF12B09F82F00725A7A /* Nucleus.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nucleus.obj; sourceTree = "<group>"; };
+		51E3FEF22B09F82F00725A7A /* Nucleus.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nucleus.mtl; sourceTree = "<group>"; };
+		51E3FEF32B09F82F00725A7A /* NucleusColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NucleusColor.png; sourceTree = "<group>"; };
+		51E3FEF72B09F84C00725A7A /* CellMembraneColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellMembraneColor.png; sourceTree = "<group>"; };
+		51E3FEF82B09F84C00725A7A /* CellMembrane.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellMembrane.mtl; sourceTree = "<group>"; };
+		51E3FEF92B09F84C00725A7A /* CellMembrane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellMembrane.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,12 @@
 		51ACF7DC2AFAC583000D1C8D /* Meshes */ = {
 			isa = PBXGroup;
 			children = (
+				51E3FEF82B09F84C00725A7A /* CellMembrane.mtl */,
+				51E3FEF92B09F84C00725A7A /* CellMembrane.obj */,
+				51E3FEF72B09F84C00725A7A /* CellMembraneColor.png */,
+				51E3FEF22B09F82F00725A7A /* Nucleus.mtl */,
+				51E3FEF12B09F82F00725A7A /* Nucleus.obj */,
+				51E3FEF32B09F82F00725A7A /* NucleusColor.png */,
 			);
 			path = Meshes;
 			sourceTree = "<group>";
@@ -166,9 +184,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E3FEF62B09F82F00725A7A /* NucleusColor.png in Resources */,
+				51E3FEF52B09F82F00725A7A /* Nucleus.mtl in Resources */,
+				51E3FEFB2B09F84C00725A7A /* CellMembrane.mtl in Resources */,
 				5172036B2AF816BF007D07C3 /* hdr.png in Resources */,
 				515642EE2AF167EA00E1CB91 /* Preview Assets.xcassets in Resources */,
+				51E3FEFC2B09F84C00725A7A /* CellMembrane.obj in Resources */,
 				515642EB2AF167EA00E1CB91 /* Assets.xcassets in Resources */,
+				51E3FEFA2B09F84C00725A7A /* CellMembraneColor.png in Resources */,
+				51E3FEF42B09F82F00725A7A /* Nucleus.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

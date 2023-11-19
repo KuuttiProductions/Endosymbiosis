@@ -17,6 +17,10 @@ struct CrynonDemoGameApp: App {
     
     func loadContent() {
         AssetLibrary.textures.addTexture(textureName: "hdr")
+        AssetLibrary.textures.addTexture(textureName: "CellMembraneColor")
+        AssetLibrary.textures.addTexture(textureName: "NucleusColor")
+        AssetLibrary.meshes.addMesh(meshName: "CellMembrane")
+        AssetLibrary.meshes.addMesh(meshName: "Nucleus")
     }
     
     var body: some SwiftUI.Scene {

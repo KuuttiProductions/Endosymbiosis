@@ -19,7 +19,7 @@ class Player: Camera {
     }
     
     func shoot() {
-        let Bacteria = Bacteria(type: .Debug, direction: self.forwardVector, position: self.position)
+        let Bacteria = Bacteria(type: .Nucleus, direction: self.forwardVector, position: self.position)
         Bacteria.gravityScalar = 0.0
         
         getScene().addPhysicsObject(Bacteria)
