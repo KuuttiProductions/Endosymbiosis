@@ -12,6 +12,7 @@ struct CrynonDemoGameApp: App {
         loadContent()
         Crynon.Preferences.preferredFPS = 60
         Crynon.Preferences.useSkySphere = true
+        Crynon.SceneManager.changeScene(BasicScene())
         Crynon.SceneManager.changeScene(GameScene())
     }
     

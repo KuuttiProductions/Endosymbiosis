@@ -25,7 +25,7 @@ class Bacteria: RigidBody {
     init(type: BacteriaType, direction: simd_float3, position: simd_float3) {
         bacteriaType = type
         super.init("Bacteria")
-        self.setScale(0.1)
+        self.setScale(0.3)
         self.setPos(position, teleport: true)
         self.linearVelocity = normalize(direction) * 5
         switch type {
@@ -57,5 +57,6 @@ class Bacteria: RigidBody {
         if time >= 5.0 {
             self.removeSelf()
         }
+        print(self.mesh)
     }
 }
