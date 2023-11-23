@@ -16,7 +16,7 @@ struct CrynonDemoGameApp: App {
     }
     
     func loadContent() {
-        AssetLibrary.textures.addTexture(textureName: "hdr", mipMaps: false, origin: .topLeft)
+        AssetLibrary.textures.addTexture(textureName: "EnvironmentTexture", mipMaps: false, origin: .topLeft)
         AssetLibrary.textures.addTexture(textureName: "CellMembraneColor")
         AssetLibrary.textures.addTexture(textureName: "NucleusColor")
         AssetLibrary.textures.addTexture(textureName: "EndoplasmicReticulumColor")

@@ -8,10 +8,12 @@
 import Foundation
 import Crynon
 import GameController
+import simd
 
 class Player: Camera {
     
     let moveSpeed: Float = 4
+    let playerMove: Bool = false
     var cooldown: Float = 0.0
     
     init() {
@@ -34,27 +36,34 @@ class Player: Camera {
         cooldown += deltaTime
         
         self.addRotY(InputManager.getMouseDeltaX() * deltaTime * 0.2)
-        self.addRotX(-InputManager.getMouseDeltaY() * deltaTime * 0.2)
         self.addRotY(InputManager.controllerRX * deltaTime * moveSpeed)
-        self.addRotX(-InputManager.controllerRY * deltaTime * moveSpeed)
         
-        if InputManager.pressedKeys.contains(.keyW) {
-            self.addPos(forwardVector * deltaTime * moveSpeed)
+        let newRotMouse: Float = (-InputManager.getMouseDeltaY() * deltaTime * 0.2)
+        let newRotController: Float = -InputManager.controllerRY * deltaTime * moveSpeed
+        self.setRotX(simd_clamp(self.rotation.x + newRotMouse, -Float.pi/2, Float.pi/2))
+        if abs(newRotMouse) < 0.1 {
+            self.setRotX(simd_clamp(self.rotation.x + newRotController, -Float.pi/2, Float.pi/2))
         }
-        if InputManager.pressedKeys.contains(.keyS) {
-            self.addPos(-forwardVector * deltaTime * moveSpeed)
-        }
-        if InputManager.pressedKeys.contains(.keyA) {
-            self.addPos(-rightVector * deltaTime * moveSpeed)
-        }
-        if InputManager.pressedKeys.contains(.keyD) {
-            self.addPos(rightVector * deltaTime * moveSpeed)
-        }
-        if InputManager.pressedKeys.contains(.spacebar) {
-            self.addPosY(deltaTime * moveSpeed)
-        }
-        if InputManager.pressedKeys.contains(.leftShift) {
-            self.addPosY(-deltaTime * moveSpeed)
+        
+        if playerMove {
+            if InputManager.pressedKeys.contains(.keyW) {
+                self.addPos(forwardVector * deltaTime * moveSpeed)
+            }
+            if InputManager.pressedKeys.contains(.keyS) {
+                self.addPos(-forwardVector * deltaTime * moveSpeed)
+            }
+            if InputManager.pressedKeys.contains(.keyA) {
+                self.addPos(-rightVector * deltaTime * moveSpeed)
+            }
+            if InputManager.pressedKeys.contains(.keyD) {
+                self.addPos(rightVector * deltaTime * moveSpeed)
+            }
+            if InputManager.pressedKeys.contains(.spacebar) {
+                self.addPosY(deltaTime * moveSpeed)
+            }
+            if InputManager.pressedKeys.contains(.leftShift) {
+                self.addPosY(-deltaTime * moveSpeed)
+            }
         }
     }
 }

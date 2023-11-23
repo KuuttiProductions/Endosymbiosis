@@ -13,7 +13,7 @@ class GameScene: Crynon.Scene {
         super.init("GameScene")
         addChild(skySphere)
         addPhysicsObject(object)
-        skySphere.texture = "hdr"
+        skySphere.texture = "EnvironmentTexture"
         addCamera(player)
         player.setPos(simd_float3(0, 0, 5))
         addLight(light)
