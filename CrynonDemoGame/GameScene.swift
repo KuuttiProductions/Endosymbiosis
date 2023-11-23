@@ -6,7 +6,7 @@ class GameScene: Crynon.Scene {
     
     var object = Cell()
     var player = Player()
-    var light = PointLight()
+    var light = DirectionalLight()
     var skySphere = EnvironmentSphere("Sky")
     
     init() {
@@ -17,6 +17,6 @@ class GameScene: Crynon.Scene {
         addCamera(player)
         player.setPos(simd_float3(0, 0, 5))
         addLight(light)
-        light.setPos(simd_float3(3, 4, 2))
+        light.direction = simd_float3(-1, -1, -1)
     }
 }

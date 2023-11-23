@@ -11,10 +11,13 @@ import simd
 
 class Cell: RigidBody {
     
-    var debug: Bool = false
-    var nucleus: Bool = false
-    var mitochondrio: Bool = false
-    var ribosomes: Bool = false
+    var nucleus: GameObject!
+    var mitochondrion: GameObject!
+    var chloroplast: GameObject!
+    var vacuole: GameObject!
+    var endoplasmicReticulum: GameObject!
+    var cellWall: GameObject!
+    var lysosome: GameObject!
     
     init() {
         super.init("Cell")
@@ -30,16 +33,65 @@ class Cell: RigidBody {
         if collidingObject is Bacteria {
             let bacteria = collidingObject as! Bacteria
             switch bacteria.bacteriaType {
-            case .Debug:
-                ()
-            case .Ribosome:
-                ()
             case .Nucleus:
-                ()
+                if nucleus == nil {
+                    nucleus = GameObject("Nucleus")
+                    self.addChild(nucleus)
+                    nucleus.mesh = "Nucleus"
+                    nucleus.material.textureColor = "NucleusColor"
+                    nucleus.setPos(-0.15819, 0.3837, 0.090875)
+                }
             case .Lysosome:
-                ()
+                if lysosome == nil {
+                    lysosome = GameObject("Lysosome")
+                    self.addChild(lysosome)
+                    lysosome.mesh = "Sphere"
+                    lysosome.material.textureColor = "LysosomeColor"
+                    lysosome.setPos(0.040092, 0.085891, 0.7598)
+                    lysosome.setScale(0.2)
+                    lysosome.material.shaderMaterial.color = simd_float4(1, 0, 0.3, 1)
+                }
             case .Mitochondrion:
-                ()
+                if mitochondrion == nil {
+                    mitochondrion = GameObject("Mitochondrion")
+                    self.addChild(mitochondrion)
+                    mitochondrion.mesh = "Mitochondrion"
+                    mitochondrion.material.textureColor = "MitochondrionColor"
+                    mitochondrion.setPos(-0.55328, -0.45049, -0.056247)
+                }
+            case .Vacuole:
+                if vacuole == nil {
+                    vacuole = GameObject("Vacuole")
+                    self.addChild(vacuole)
+                    vacuole.mesh = "Vacuole"
+                    vacuole.material.textureColor = "VacuoleColor"
+                    vacuole.setPos(0.25331, -0.27229, -0.19558)
+                    vacuole.material.shaderMaterial.color = simd_float4(0.2, 0.5, 1, 1)
+                }
+            case .CellWall:
+                if cellWall == nil {
+                    cellWall = GameObject("CellWall")
+                    self.addChild(cellWall)
+                    cellWall.mesh = "CellWall"
+                    cellWall.material.textureColor = "CellWallColor"
+                    cellWall.material.shaderMaterial.color = simd_float4(0.8, 0.5, 0.1, 1)
+                }
+            case .Chloroplast:
+                if chloroplast == nil {
+                    chloroplast = GameObject("Chloroplast")
+                    self.addChild(chloroplast)
+                    chloroplast.mesh = "Chloroplast"
+                    chloroplast.material.textureColor = "ChloroplastColor"
+                    chloroplast.setPos(0.60176, 0.276, 0.022367)
+                }
+            case .EndoplasmicReticulum:
+                if endoplasmicReticulum == nil {
+                    endoplasmicReticulum = GameObject("EndoplasmicReticulum")
+                    self.addChild(endoplasmicReticulum)
+                    endoplasmicReticulum.mesh = "EndoplasmicReticulum"
+                    endoplasmicReticulum.material.textureColor = "EndoplasmicReticulumColor"
+                    endoplasmicReticulum.setPos(-0.23226, 0.54715, 0.41553)
+                }
             }
             bacteria.removeSelf()
             return false
