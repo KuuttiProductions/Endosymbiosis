@@ -29,6 +29,12 @@ class Cell: RigidBody {
         self.material.shader = .Transparent
     }
     
+    func checkForAll() {
+        if nucleus != nil && mitochondrion != nil && chloroplast != nil && vacuole != nil && endoplasmicReticulum != nil && cellWall != nil && lysosome != nil {
+            (getScene() as! GameScene).newCell()
+        }
+    }
+    
     override func onBeginCollide(collidingObject: RigidBody)-> Bool {
         if collidingObject is Bacteria {
             let bacteria = collidingObject as! Bacteria
@@ -94,6 +100,7 @@ class Cell: RigidBody {
                 }
             }
             bacteria.removeSelf()
+            checkForAll()
             return false
         }
         return true

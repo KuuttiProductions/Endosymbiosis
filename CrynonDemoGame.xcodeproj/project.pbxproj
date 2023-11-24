@@ -27,6 +27,8 @@
 		514151312B0FAC7800472490 /* CellWall.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5141511E2B0FAC7800472490 /* CellWall.mtl */; };
 		514151322B0FAC7800472490 /* CellMembrane.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5141511F2B0FAC7800472490 /* CellMembrane.obj */; };
 		514151362B0FBFFE00472490 /* EnvironmentTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 514151352B0FBFFE00472490 /* EnvironmentTexture.png */; };
+		514151382B111E6D00472490 /* ViewCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514151372B111E6D00472490 /* ViewCenter.swift */; };
+		5141513A2B111F2F00472490 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514151392B111F2F00472490 /* CanvasView.swift */; };
 		515642E72AF167E900E1CB91 /* CrynonDemoGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515642E62AF167E900E1CB91 /* CrynonDemoGameApp.swift */; };
 		515642EB2AF167EA00E1CB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515642EA2AF167EA00E1CB91 /* Assets.xcassets */; };
 		515642EE2AF167EA00E1CB91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515642ED2AF167EA00E1CB91 /* Preview Assets.xcassets */; };
@@ -35,7 +37,6 @@
 		5162C26B2B03C53400BEF6C3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26A2B03C53400BEF6C3 /* Player.swift */; };
 		5162C26D2B03CA5300BEF6C3 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */; };
 		5162C26F2B03CED200BEF6C3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26E2B03CED200BEF6C3 /* Cell.swift */; };
-		517203692AF8160B007D07C3 /* Crynon in Frameworks */ = {isa = PBXBuildFile; productRef = 517203682AF8160B007D07C3 /* Crynon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		5141511E2B0FAC7800472490 /* CellWall.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellWall.mtl; sourceTree = "<group>"; };
 		5141511F2B0FAC7800472490 /* CellMembrane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellMembrane.obj; sourceTree = "<group>"; };
 		514151352B0FBFFE00472490 /* EnvironmentTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnvironmentTexture.png; sourceTree = "<group>"; };
+		514151372B111E6D00472490 /* ViewCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCenter.swift; sourceTree = "<group>"; };
+		514151392B111F2F00472490 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		515642E32AF167E900E1CB91 /* CrynonDemoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrynonDemoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515642E62AF167E900E1CB91 /* CrynonDemoGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrynonDemoGameApp.swift; sourceTree = "<group>"; };
 		515642EA2AF167EA00E1CB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				515642F72AF16A7200E1CB91 /* Crynon in Frameworks */,
-				517203692AF8160B007D07C3 /* Crynon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +113,8 @@
 				5162C26A2B03C53400BEF6C3 /* Player.swift */,
 				5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */,
 				5162C26E2B03CED200BEF6C3 /* Cell.swift */,
+				514151372B111E6D00472490 /* ViewCenter.swift */,
+				514151392B111F2F00472490 /* CanvasView.swift */,
 			);
 			path = CrynonDemoGame;
 			sourceTree = "<group>";
@@ -176,7 +180,6 @@
 			name = CrynonDemoGame;
 			packageProductDependencies = (
 				515642F62AF16A7200E1CB91 /* Crynon */,
-				517203682AF8160B007D07C3 /* Crynon */,
 			);
 			productName = CrynonDemoGame;
 			productReference = 515642E32AF167E900E1CB91 /* CrynonDemoGame.app */;
@@ -256,9 +259,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5162C26D2B03CA5300BEF6C3 /* Bacteria.swift in Sources */,
+				514151382B111E6D00472490 /* ViewCenter.swift in Sources */,
 				515642F92AF2A83A00E1CB91 /* GameScene.swift in Sources */,
 				5162C26F2B03CED200BEF6C3 /* Cell.swift in Sources */,
 				5162C26B2B03C53400BEF6C3 /* Player.swift in Sources */,
+				5141513A2B111F2F00472490 /* CanvasView.swift in Sources */,
 				515642E72AF167E900E1CB91 /* CrynonDemoGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,10 +483,6 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		515642F62AF16A7200E1CB91 /* Crynon */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Crynon;
-		};
-		517203682AF8160B007D07C3 /* Crynon */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Crynon;
 		};

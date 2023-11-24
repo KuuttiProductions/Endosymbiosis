@@ -15,13 +15,42 @@ class Player: Camera {
     let moveSpeed: Float = 4
     let playerMove: Bool = false
     var cooldown: Float = 0.0
+    var score: Int = 0
+    var selected: Int = 0
     
     init() {
         super.init("Player")
         InputManager.subscribe(client: self)
     }
     
-    func shoot(_ type: BacteriaType) {
+    func updateScore(add: Int) {
+        score += add
+        ViewCenter.shared.score = score
+    }
+    
+    func shoot() {
+        var type: BacteriaType = .Nucleus
+        if selected == 1 {
+            type = .Nucleus
+        }
+        if selected == 2 {
+            type = .Mitochondrion
+        }
+        if selected == 3 {
+            type = .CellWall
+        }
+        if selected == 4 {
+            type = .Chloroplast
+        }
+        if selected == 5 {
+            type = .Vacuole
+        }
+        if selected == 6 {
+            type = .EndoplasmicReticulum
+        }
+        if selected == 7 {
+            type = .Lysosome
+        }
         if cooldown < 0.2 {
             return
         }
@@ -71,31 +100,56 @@ class Player: Camera {
 extension Player: EventInput {
     func drawKeyInput(key: GCKeyCode, down: Bool) {
         if down {
-            if key == .one {
-                shoot(.Nucleus)
+            if key == .keyA || key == .leftArrow {
+                if selected == 1 {
+                    selected = 7
+                } else {
+                    selected -= 1
+                }
+                ViewCenter.shared.selected = selected
             }
-            if key == .two {
-                shoot(.Mitochondrion)
-            }
-            if key == .three {
-                shoot(.CellWall)
-            }
-            if key == .four {
-                shoot(.Chloroplast)
-            }
-            if key == .five {
-                shoot(.Vacuole)
-            }
-            if key == .six {
-                shoot(.EndoplasmicReticulum)
-            }
-            if key == .seven {
-                shoot(.Lysosome)
+            
+            if key == .keyD || key == .rightArrow {
+                if selected == 7 {
+                    selected = 1
+                } else {
+                    selected += 1
+                }
+                ViewCenter.shared.selected = selected
             }
         }
     }
     
-    func drawControllerInput(button: GCButtonElementName, down: Bool) {}
+    func drawControllerInput(button: GCButtonElementName, down: Bool) {
+        if down {
+            if button == .leftTrigger {
+                shoot()
+                InputManager.playTransientHaptic(1, .triggers)
+            }
+            
+            if button == .leftShoulder {
+                if selected == 1 {
+                    selected = 7
+                } else {
+                    selected -= 1
+                }
+                ViewCenter.shared.selected = selected
+            }
+            
+            if button == .rightShoulder {
+                if selected == 7 {
+                    selected = 1
+                } else {
+                    selected += 1
+                }
+                ViewCenter.shared.selected = selected
+            }
+        }
+    }
     
-    func drawMouseInput(button: Crynon.MouseButton, down: Bool) {}
+    func drawMouseInput(button: Crynon.MouseButton, down: Bool) {
+        if down {
+            shoot()
+        }
+    }
 }
