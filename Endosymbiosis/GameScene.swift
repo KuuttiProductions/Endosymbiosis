@@ -24,10 +24,9 @@ class GameScene: Crynon.Scene {
         player.updateScore(add: 1)
         removeChild(cell.uuid)
         cell = Cell()
-        let pos = simd_float3(Bool.random() ? Float.random(in: 2...7) * -1 : Float.random(in: 2...7),
-                              Bool.random() ? Float.random(in: 2...7) * -1 : Float.random(in: 2...7),
-                              Bool.random() ? Float.random(in: 2...7) * -1 : Float.random(in: 2...7))
-        cell.setPos(pos, teleport: true)
+        cell.setPos(simd_float3(Float.random(in: -7...7),
+                                Float.random(in: -7...7),
+                                Float.random(in: -7...7)), teleport: true)
         addPhysicsObject(cell)
     }
 }

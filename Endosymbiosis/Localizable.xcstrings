@@ -17,6 +17,22 @@
         }
       }
     },
+    "menu.howToPlay" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How to play"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peliohjeet"
+          }
+        }
+      }
+    },
     "menu.start" : {
       "localizations" : {
         "en" : {

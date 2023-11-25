@@ -7,72 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		514151202B0FAC7800472490 /* Mitochondrion.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5141510D2B0FAC7800472490 /* Mitochondrion.obj */; };
-		514151212B0FAC7800472490 /* MitochondrionColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5141510E2B0FAC7800472490 /* MitochondrionColor.png */; };
-		514151222B0FAC7800472490 /* CellMembrane.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5141510F2B0FAC7800472490 /* CellMembrane.mtl */; };
-		514151232B0FAC7800472490 /* Chloroplast.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 514151102B0FAC7800472490 /* Chloroplast.mtl */; };
-		514151242B0FAC7800472490 /* CellMembraneColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 514151112B0FAC7800472490 /* CellMembraneColor.png */; };
-		514151252B0FAC7800472490 /* EndoplasmicReticulumColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 514151122B0FAC7800472490 /* EndoplasmicReticulumColor.png */; };
-		514151262B0FAC7800472490 /* CellWall.obj in Resources */ = {isa = PBXBuildFile; fileRef = 514151132B0FAC7800472490 /* CellWall.obj */; };
-		514151272B0FAC7800472490 /* Nucleus.obj in Resources */ = {isa = PBXBuildFile; fileRef = 514151142B0FAC7800472490 /* Nucleus.obj */; };
-		514151282B0FAC7800472490 /* Vacuole.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 514151152B0FAC7800472490 /* Vacuole.mtl */; };
-		514151292B0FAC7800472490 /* Mitochondrion.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 514151162B0FAC7800472490 /* Mitochondrion.mtl */; };
-		5141512A2B0FAC7800472490 /* ChloroplastColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 514151172B0FAC7800472490 /* ChloroplastColor.png */; };
-		5141512B2B0FAC7800472490 /* Chloroplast.obj in Resources */ = {isa = PBXBuildFile; fileRef = 514151182B0FAC7800472490 /* Chloroplast.obj */; };
-		5141512C2B0FAC7800472490 /* Nucleus.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 514151192B0FAC7800472490 /* Nucleus.mtl */; };
-		5141512D2B0FAC7800472490 /* EndoplasmicReticulum.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5141511A2B0FAC7800472490 /* EndoplasmicReticulum.obj */; };
-		5141512E2B0FAC7800472490 /* NucleusColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5141511B2B0FAC7800472490 /* NucleusColor.png */; };
-		5141512F2B0FAC7800472490 /* Vacuole.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5141511C2B0FAC7800472490 /* Vacuole.obj */; };
-		514151302B0FAC7800472490 /* EndoplasmicReiculum.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5141511D2B0FAC7800472490 /* EndoplasmicReiculum.mtl */; };
-		514151312B0FAC7800472490 /* CellWall.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5141511E2B0FAC7800472490 /* CellWall.mtl */; };
-		514151322B0FAC7800472490 /* CellMembrane.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5141511F2B0FAC7800472490 /* CellMembrane.obj */; };
-		514151362B0FBFFE00472490 /* EnvironmentTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 514151352B0FBFFE00472490 /* EnvironmentTexture.png */; };
-		514151382B111E6D00472490 /* ViewCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514151372B111E6D00472490 /* ViewCenter.swift */; };
-		5141513A2B111F2F00472490 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514151392B111F2F00472490 /* CanvasView.swift */; };
-		515642E72AF167E900E1CB91 /* CrynonDemoGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515642E62AF167E900E1CB91 /* CrynonDemoGameApp.swift */; };
-		515642EB2AF167EA00E1CB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515642EA2AF167EA00E1CB91 /* Assets.xcassets */; };
-		515642EE2AF167EA00E1CB91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515642ED2AF167EA00E1CB91 /* Preview Assets.xcassets */; };
 		515642F72AF16A7200E1CB91 /* Crynon in Frameworks */ = {isa = PBXBuildFile; productRef = 515642F62AF16A7200E1CB91 /* Crynon */; };
-		515642F92AF2A83A00E1CB91 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515642F82AF2A83A00E1CB91 /* GameScene.swift */; };
-		5162C26B2B03C53400BEF6C3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26A2B03C53400BEF6C3 /* Player.swift */; };
-		5162C26D2B03CA5300BEF6C3 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */; };
-		5162C26F2B03CED200BEF6C3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162C26E2B03CED200BEF6C3 /* Cell.swift */; };
-		51BA335F2B11F5C8003E7E85 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 51BA335E2B11F5C8003E7E85 /* Localizable.xcstrings */; };
+		51F7BD882B11FD8400475561 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD662B11FD8400475561 /* Localizable.xcstrings */; };
+		51F7BD892B11FD8400475561 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD672B11FD8400475561 /* CanvasView.swift */; };
+		51F7BD8A2B11FD8400475561 /* ViewCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD682B11FD8400475561 /* ViewCenter.swift */; };
+		51F7BD8B2B11FD8400475561 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD692B11FD8400475561 /* Cell.swift */; };
+		51F7BD8C2B11FD8400475561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD6A2B11FD8400475561 /* Assets.xcassets */; };
+		51F7BD8D2B11FD8400475561 /* EnvironmentTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD6C2B11FD8400475561 /* EnvironmentTexture.png */; };
+		51F7BD8E2B11FD8400475561 /* NucleusColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD6E2B11FD8400475561 /* NucleusColor.png */; };
+		51F7BD8F2B11FD8400475561 /* Chloroplast.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD6F2B11FD8400475561 /* Chloroplast.mtl */; };
+		51F7BD902B11FD8400475561 /* Nucleus.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD702B11FD8400475561 /* Nucleus.mtl */; };
+		51F7BD912B11FD8400475561 /* CellMembrane.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD712B11FD8400475561 /* CellMembrane.mtl */; };
+		51F7BD922B11FD8400475561 /* Mitochondrion.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD722B11FD8400475561 /* Mitochondrion.mtl */; };
+		51F7BD932B11FD8400475561 /* ChloroplastColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD732B11FD8400475561 /* ChloroplastColor.png */; };
+		51F7BD942B11FD8400475561 /* CellWall.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD742B11FD8400475561 /* CellWall.obj */; };
+		51F7BD952B11FD8400475561 /* Vacuole.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD752B11FD8400475561 /* Vacuole.mtl */; };
+		51F7BD962B11FD8400475561 /* EndoplasmicReticulum.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD762B11FD8400475561 /* EndoplasmicReticulum.obj */; };
+		51F7BD972B11FD8400475561 /* EndoplasmicReticulumColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD772B11FD8400475561 /* EndoplasmicReticulumColor.png */; };
+		51F7BD982B11FD8400475561 /* CellWall.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD782B11FD8400475561 /* CellWall.mtl */; };
+		51F7BD992B11FD8400475561 /* Vacuole.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD792B11FD8400475561 /* Vacuole.obj */; };
+		51F7BD9A2B11FD8400475561 /* MitochondrionColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD7A2B11FD8400475561 /* MitochondrionColor.png */; };
+		51F7BD9B2B11FD8400475561 /* CellMembrane.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD7B2B11FD8400475561 /* CellMembrane.obj */; };
+		51F7BD9C2B11FD8400475561 /* EndoplasmicReiculum.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD7C2B11FD8400475561 /* EndoplasmicReiculum.mtl */; };
+		51F7BD9D2B11FD8400475561 /* Nucleus.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD7D2B11FD8400475561 /* Nucleus.obj */; };
+		51F7BD9E2B11FD8400475561 /* Chloroplast.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD7E2B11FD8400475561 /* Chloroplast.obj */; };
+		51F7BD9F2B11FD8400475561 /* Mitochondrion.obj in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD7F2B11FD8400475561 /* Mitochondrion.obj */; };
+		51F7BDA02B11FD8400475561 /* CellMembraneColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD802B11FD8400475561 /* CellMembraneColor.png */; };
+		51F7BDA12B11FD8400475561 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD822B11FD8400475561 /* Preview Assets.xcassets */; };
+		51F7BDA22B11FD8400475561 /* CrynonDemoGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD832B11FD8400475561 /* CrynonDemoGameApp.swift */; };
+		51F7BDA32B11FD8400475561 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD852B11FD8400475561 /* Bacteria.swift */; };
+		51F7BDA42B11FD8400475561 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD862B11FD8400475561 /* GameScene.swift */; };
+		51F7BDA52B11FD8400475561 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD872B11FD8400475561 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5141510D2B0FAC7800472490 /* Mitochondrion.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mitochondrion.obj; sourceTree = "<group>"; };
-		5141510E2B0FAC7800472490 /* MitochondrionColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MitochondrionColor.png; sourceTree = "<group>"; };
-		5141510F2B0FAC7800472490 /* CellMembrane.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellMembrane.mtl; sourceTree = "<group>"; };
-		514151102B0FAC7800472490 /* Chloroplast.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chloroplast.mtl; sourceTree = "<group>"; };
-		514151112B0FAC7800472490 /* CellMembraneColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellMembraneColor.png; sourceTree = "<group>"; };
-		514151122B0FAC7800472490 /* EndoplasmicReticulumColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EndoplasmicReticulumColor.png; sourceTree = "<group>"; };
-		514151132B0FAC7800472490 /* CellWall.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellWall.obj; sourceTree = "<group>"; };
-		514151142B0FAC7800472490 /* Nucleus.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nucleus.obj; sourceTree = "<group>"; };
-		514151152B0FAC7800472490 /* Vacuole.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vacuole.mtl; sourceTree = "<group>"; };
-		514151162B0FAC7800472490 /* Mitochondrion.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mitochondrion.mtl; sourceTree = "<group>"; };
-		514151172B0FAC7800472490 /* ChloroplastColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChloroplastColor.png; sourceTree = "<group>"; };
-		514151182B0FAC7800472490 /* Chloroplast.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chloroplast.obj; sourceTree = "<group>"; };
-		514151192B0FAC7800472490 /* Nucleus.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nucleus.mtl; sourceTree = "<group>"; };
-		5141511A2B0FAC7800472490 /* EndoplasmicReticulum.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EndoplasmicReticulum.obj; sourceTree = "<group>"; };
-		5141511B2B0FAC7800472490 /* NucleusColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NucleusColor.png; sourceTree = "<group>"; };
-		5141511C2B0FAC7800472490 /* Vacuole.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vacuole.obj; sourceTree = "<group>"; };
-		5141511D2B0FAC7800472490 /* EndoplasmicReiculum.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EndoplasmicReiculum.mtl; sourceTree = "<group>"; };
-		5141511E2B0FAC7800472490 /* CellWall.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellWall.mtl; sourceTree = "<group>"; };
-		5141511F2B0FAC7800472490 /* CellMembrane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellMembrane.obj; sourceTree = "<group>"; };
-		514151352B0FBFFE00472490 /* EnvironmentTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnvironmentTexture.png; sourceTree = "<group>"; };
-		514151372B111E6D00472490 /* ViewCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCenter.swift; sourceTree = "<group>"; };
-		514151392B111F2F00472490 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		515642E32AF167E900E1CB91 /* Endosymbiosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endosymbiosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		515642E62AF167E900E1CB91 /* CrynonDemoGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrynonDemoGameApp.swift; sourceTree = "<group>"; };
-		515642EA2AF167EA00E1CB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		515642ED2AF167EA00E1CB91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		515642EF2AF167EA00E1CB91 /* CrynonDemoGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrynonDemoGame.entitlements; sourceTree = "<group>"; };
-		515642F82AF2A83A00E1CB91 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		5162C26A2B03C53400BEF6C3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
-		5162C26E2B03CED200BEF6C3 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		51BA335E2B11F5C8003E7E85 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		51F7BD662B11FD8400475561 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		51F7BD672B11FD8400475561 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		51F7BD682B11FD8400475561 /* ViewCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCenter.swift; sourceTree = "<group>"; };
+		51F7BD692B11FD8400475561 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		51F7BD6A2B11FD8400475561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51F7BD6C2B11FD8400475561 /* EnvironmentTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnvironmentTexture.png; sourceTree = "<group>"; };
+		51F7BD6E2B11FD8400475561 /* NucleusColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NucleusColor.png; sourceTree = "<group>"; };
+		51F7BD6F2B11FD8400475561 /* Chloroplast.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chloroplast.mtl; sourceTree = "<group>"; };
+		51F7BD702B11FD8400475561 /* Nucleus.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nucleus.mtl; sourceTree = "<group>"; };
+		51F7BD712B11FD8400475561 /* CellMembrane.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellMembrane.mtl; sourceTree = "<group>"; };
+		51F7BD722B11FD8400475561 /* Mitochondrion.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mitochondrion.mtl; sourceTree = "<group>"; };
+		51F7BD732B11FD8400475561 /* ChloroplastColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChloroplastColor.png; sourceTree = "<group>"; };
+		51F7BD742B11FD8400475561 /* CellWall.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellWall.obj; sourceTree = "<group>"; };
+		51F7BD752B11FD8400475561 /* Vacuole.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vacuole.mtl; sourceTree = "<group>"; };
+		51F7BD762B11FD8400475561 /* EndoplasmicReticulum.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EndoplasmicReticulum.obj; sourceTree = "<group>"; };
+		51F7BD772B11FD8400475561 /* EndoplasmicReticulumColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EndoplasmicReticulumColor.png; sourceTree = "<group>"; };
+		51F7BD782B11FD8400475561 /* CellWall.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellWall.mtl; sourceTree = "<group>"; };
+		51F7BD792B11FD8400475561 /* Vacuole.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vacuole.obj; sourceTree = "<group>"; };
+		51F7BD7A2B11FD8400475561 /* MitochondrionColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MitochondrionColor.png; sourceTree = "<group>"; };
+		51F7BD7B2B11FD8400475561 /* CellMembrane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CellMembrane.obj; sourceTree = "<group>"; };
+		51F7BD7C2B11FD8400475561 /* EndoplasmicReiculum.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EndoplasmicReiculum.mtl; sourceTree = "<group>"; };
+		51F7BD7D2B11FD8400475561 /* Nucleus.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nucleus.obj; sourceTree = "<group>"; };
+		51F7BD7E2B11FD8400475561 /* Chloroplast.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chloroplast.obj; sourceTree = "<group>"; };
+		51F7BD7F2B11FD8400475561 /* Mitochondrion.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mitochondrion.obj; sourceTree = "<group>"; };
+		51F7BD802B11FD8400475561 /* CellMembraneColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellMembraneColor.png; sourceTree = "<group>"; };
+		51F7BD822B11FD8400475561 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51F7BD832B11FD8400475561 /* CrynonDemoGameApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrynonDemoGameApp.swift; sourceTree = "<group>"; };
+		51F7BD842B11FD8400475561 /* Endosymbiosis.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Endosymbiosis.entitlements; sourceTree = "<group>"; };
+		51F7BD852B11FD8400475561 /* Bacteria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
+		51F7BD862B11FD8400475561 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		51F7BD872B11FD8400475561 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		515642DA2AF167E900E1CB91 = {
 			isa = PBXGroup;
 			children = (
-				515642E52AF167E900E1CB91 /* CrynonDemoGame */,
+				51F7BD652B11FD8400475561 /* Endosymbiosis */,
 				515642E42AF167E900E1CB91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,66 +103,66 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		515642E52AF167E900E1CB91 /* CrynonDemoGame */ = {
+		51F7BD652B11FD8400475561 /* Endosymbiosis */ = {
 			isa = PBXGroup;
 			children = (
-				51ACF7DB2AFAC57D000D1C8D /* Content */,
-				515642E62AF167E900E1CB91 /* CrynonDemoGameApp.swift */,
-				515642EA2AF167EA00E1CB91 /* Assets.xcassets */,
-				515642EF2AF167EA00E1CB91 /* CrynonDemoGame.entitlements */,
-				515642EC2AF167EA00E1CB91 /* Preview Content */,
-				515642F82AF2A83A00E1CB91 /* GameScene.swift */,
-				5162C26A2B03C53400BEF6C3 /* Player.swift */,
-				5162C26C2B03CA5300BEF6C3 /* Bacteria.swift */,
-				5162C26E2B03CED200BEF6C3 /* Cell.swift */,
-				514151372B111E6D00472490 /* ViewCenter.swift */,
-				514151392B111F2F00472490 /* CanvasView.swift */,
-				51BA335E2B11F5C8003E7E85 /* Localizable.xcstrings */,
+				51F7BD832B11FD8400475561 /* CrynonDemoGameApp.swift */,
+				51F7BD672B11FD8400475561 /* CanvasView.swift */,
+				51F7BD6B2B11FD8400475561 /* Content */,
+				51F7BD6A2B11FD8400475561 /* Assets.xcassets */,
+				51F7BD862B11FD8400475561 /* GameScene.swift */,
+				51F7BD852B11FD8400475561 /* Bacteria.swift */,
+				51F7BD692B11FD8400475561 /* Cell.swift */,
+				51F7BD872B11FD8400475561 /* Player.swift */,
+				51F7BD682B11FD8400475561 /* ViewCenter.swift */,
+				51F7BD842B11FD8400475561 /* Endosymbiosis.entitlements */,
+				51F7BD812B11FD8400475561 /* Preview Content */,
+				51F7BD662B11FD8400475561 /* Localizable.xcstrings */,
 			);
-			path = CrynonDemoGame;
+			path = Endosymbiosis;
 			sourceTree = "<group>";
 		};
-		515642EC2AF167EA00E1CB91 /* Preview Content */ = {
+		51F7BD6B2B11FD8400475561 /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				515642ED2AF167EA00E1CB91 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		51ACF7DB2AFAC57D000D1C8D /* Content */ = {
-			isa = PBXGroup;
-			children = (
-				514151352B0FBFFE00472490 /* EnvironmentTexture.png */,
-				51ACF7DC2AFAC583000D1C8D /* Meshes */,
+				51F7BD6C2B11FD8400475561 /* EnvironmentTexture.png */,
+				51F7BD6D2B11FD8400475561 /* Meshes */,
 			);
 			path = Content;
 			sourceTree = "<group>";
 		};
-		51ACF7DC2AFAC583000D1C8D /* Meshes */ = {
+		51F7BD6D2B11FD8400475561 /* Meshes */ = {
 			isa = PBXGroup;
 			children = (
-				5141510F2B0FAC7800472490 /* CellMembrane.mtl */,
-				5141511F2B0FAC7800472490 /* CellMembrane.obj */,
-				514151112B0FAC7800472490 /* CellMembraneColor.png */,
-				5141511E2B0FAC7800472490 /* CellWall.mtl */,
-				514151132B0FAC7800472490 /* CellWall.obj */,
-				514151102B0FAC7800472490 /* Chloroplast.mtl */,
-				514151182B0FAC7800472490 /* Chloroplast.obj */,
-				514151172B0FAC7800472490 /* ChloroplastColor.png */,
-				5141511D2B0FAC7800472490 /* EndoplasmicReiculum.mtl */,
-				5141511A2B0FAC7800472490 /* EndoplasmicReticulum.obj */,
-				514151122B0FAC7800472490 /* EndoplasmicReticulumColor.png */,
-				514151162B0FAC7800472490 /* Mitochondrion.mtl */,
-				5141510D2B0FAC7800472490 /* Mitochondrion.obj */,
-				5141510E2B0FAC7800472490 /* MitochondrionColor.png */,
-				514151192B0FAC7800472490 /* Nucleus.mtl */,
-				514151142B0FAC7800472490 /* Nucleus.obj */,
-				5141511B2B0FAC7800472490 /* NucleusColor.png */,
-				514151152B0FAC7800472490 /* Vacuole.mtl */,
-				5141511C2B0FAC7800472490 /* Vacuole.obj */,
+				51F7BD6E2B11FD8400475561 /* NucleusColor.png */,
+				51F7BD6F2B11FD8400475561 /* Chloroplast.mtl */,
+				51F7BD702B11FD8400475561 /* Nucleus.mtl */,
+				51F7BD712B11FD8400475561 /* CellMembrane.mtl */,
+				51F7BD722B11FD8400475561 /* Mitochondrion.mtl */,
+				51F7BD732B11FD8400475561 /* ChloroplastColor.png */,
+				51F7BD742B11FD8400475561 /* CellWall.obj */,
+				51F7BD752B11FD8400475561 /* Vacuole.mtl */,
+				51F7BD762B11FD8400475561 /* EndoplasmicReticulum.obj */,
+				51F7BD772B11FD8400475561 /* EndoplasmicReticulumColor.png */,
+				51F7BD782B11FD8400475561 /* CellWall.mtl */,
+				51F7BD792B11FD8400475561 /* Vacuole.obj */,
+				51F7BD7A2B11FD8400475561 /* MitochondrionColor.png */,
+				51F7BD7B2B11FD8400475561 /* CellMembrane.obj */,
+				51F7BD7C2B11FD8400475561 /* EndoplasmicReiculum.mtl */,
+				51F7BD7D2B11FD8400475561 /* Nucleus.obj */,
+				51F7BD7E2B11FD8400475561 /* Chloroplast.obj */,
+				51F7BD7F2B11FD8400475561 /* Mitochondrion.obj */,
+				51F7BD802B11FD8400475561 /* CellMembraneColor.png */,
 			);
 			path = Meshes;
+			sourceTree = "<group>";
+		};
+		51F7BD812B11FD8400475561 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51F7BD822B11FD8400475561 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,29 +230,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				514151322B0FAC7800472490 /* CellMembrane.obj in Resources */,
-				514151212B0FAC7800472490 /* MitochondrionColor.png in Resources */,
-				514151262B0FAC7800472490 /* CellWall.obj in Resources */,
-				514151242B0FAC7800472490 /* CellMembraneColor.png in Resources */,
-				514151312B0FAC7800472490 /* CellWall.mtl in Resources */,
-				514151272B0FAC7800472490 /* Nucleus.obj in Resources */,
-				5141512C2B0FAC7800472490 /* Nucleus.mtl in Resources */,
-				514151362B0FBFFE00472490 /* EnvironmentTexture.png in Resources */,
-				5141512E2B0FAC7800472490 /* NucleusColor.png in Resources */,
-				514151282B0FAC7800472490 /* Vacuole.mtl in Resources */,
-				514151252B0FAC7800472490 /* EndoplasmicReticulumColor.png in Resources */,
-				514151222B0FAC7800472490 /* CellMembrane.mtl in Resources */,
-				515642EE2AF167EA00E1CB91 /* Preview Assets.xcassets in Resources */,
-				5141512B2B0FAC7800472490 /* Chloroplast.obj in Resources */,
-				514151302B0FAC7800472490 /* EndoplasmicReiculum.mtl in Resources */,
-				515642EB2AF167EA00E1CB91 /* Assets.xcassets in Resources */,
-				51BA335F2B11F5C8003E7E85 /* Localizable.xcstrings in Resources */,
-				514151202B0FAC7800472490 /* Mitochondrion.obj in Resources */,
-				5141512D2B0FAC7800472490 /* EndoplasmicReticulum.obj in Resources */,
-				514151292B0FAC7800472490 /* Mitochondrion.mtl in Resources */,
-				5141512F2B0FAC7800472490 /* Vacuole.obj in Resources */,
-				514151232B0FAC7800472490 /* Chloroplast.mtl in Resources */,
-				5141512A2B0FAC7800472490 /* ChloroplastColor.png in Resources */,
+				51F7BD972B11FD8400475561 /* EndoplasmicReticulumColor.png in Resources */,
+				51F7BD8D2B11FD8400475561 /* EnvironmentTexture.png in Resources */,
+				51F7BD942B11FD8400475561 /* CellWall.obj in Resources */,
+				51F7BD922B11FD8400475561 /* Mitochondrion.mtl in Resources */,
+				51F7BD9F2B11FD8400475561 /* Mitochondrion.obj in Resources */,
+				51F7BD932B11FD8400475561 /* ChloroplastColor.png in Resources */,
+				51F7BDA02B11FD8400475561 /* CellMembraneColor.png in Resources */,
+				51F7BD9A2B11FD8400475561 /* MitochondrionColor.png in Resources */,
+				51F7BDA12B11FD8400475561 /* Preview Assets.xcassets in Resources */,
+				51F7BD8E2B11FD8400475561 /* NucleusColor.png in Resources */,
+				51F7BD9C2B11FD8400475561 /* EndoplasmicReiculum.mtl in Resources */,
+				51F7BD8C2B11FD8400475561 /* Assets.xcassets in Resources */,
+				51F7BD902B11FD8400475561 /* Nucleus.mtl in Resources */,
+				51F7BD912B11FD8400475561 /* CellMembrane.mtl in Resources */,
+				51F7BD882B11FD8400475561 /* Localizable.xcstrings in Resources */,
+				51F7BD9B2B11FD8400475561 /* CellMembrane.obj in Resources */,
+				51F7BD8F2B11FD8400475561 /* Chloroplast.mtl in Resources */,
+				51F7BD982B11FD8400475561 /* CellWall.mtl in Resources */,
+				51F7BD962B11FD8400475561 /* EndoplasmicReticulum.obj in Resources */,
+				51F7BD9D2B11FD8400475561 /* Nucleus.obj in Resources */,
+				51F7BD952B11FD8400475561 /* Vacuole.mtl in Resources */,
+				51F7BD992B11FD8400475561 /* Vacuole.obj in Resources */,
+				51F7BD9E2B11FD8400475561 /* Chloroplast.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,13 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5162C26D2B03CA5300BEF6C3 /* Bacteria.swift in Sources */,
-				514151382B111E6D00472490 /* ViewCenter.swift in Sources */,
-				515642F92AF2A83A00E1CB91 /* GameScene.swift in Sources */,
-				5162C26F2B03CED200BEF6C3 /* Cell.swift in Sources */,
-				5162C26B2B03C53400BEF6C3 /* Player.swift in Sources */,
-				5141513A2B111F2F00472490 /* CanvasView.swift in Sources */,
-				515642E72AF167E900E1CB91 /* CrynonDemoGameApp.swift in Sources */,
+				51F7BDA42B11FD8400475561 /* GameScene.swift in Sources */,
+				51F7BD892B11FD8400475561 /* CanvasView.swift in Sources */,
+				51F7BD8A2B11FD8400475561 /* ViewCenter.swift in Sources */,
+				51F7BD8B2B11FD8400475561 /* Cell.swift in Sources */,
+				51F7BDA52B11FD8400475561 /* Player.swift in Sources */,
+				51F7BDA32B11FD8400475561 /* Bacteria.swift in Sources */,
+				51F7BDA22B11FD8400475561 /* CrynonDemoGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,11 +399,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CrynonDemoGame/CrynonDemoGame.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Endosymbiosis/Endosymbiosis.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CrynonDemoGame/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Endosymbiosis/Preview Content\"";
 				DEVELOPMENT_TEAM = B8J394Q4M8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -418,7 +419,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KudeKube.CrynonDemoGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KudeKube.Endosymbiosis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -430,11 +431,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CrynonDemoGame/CrynonDemoGame.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Endosymbiosis/Endosymbiosis.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CrynonDemoGame/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Endosymbiosis/Preview Content\"";
 				DEVELOPMENT_TEAM = B8J394Q4M8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -449,7 +451,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KudeKube.CrynonDemoGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KudeKube.Endosymbiosis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
