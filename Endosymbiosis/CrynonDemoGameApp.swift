@@ -34,6 +34,10 @@ struct CrynonDemoGameApp: App {
     var body: some SwiftUI.Scene {
         WindowGroup {
             CanvasView()
+                .presentedWindowStyle(.hiddenTitleBar)
+                .presentedWindowToolbarStyle(.unifiedCompact(showsTitle: false))
         }
+        .defaultPosition(.center)
+        .defaultSize(width: 600, height: 400)
     }
 }
