@@ -107,6 +107,7 @@ class Cell: RigidBody {
     func checkForAll() {
         if nucleus != nil && mitochondrion != nil && chloroplast != nil && vacuole != nil && endoplasmicReticulum != nil && cellWall != nil && lysosome != nil {
             ready = true
+            (getScene() as! GameScene).enemy.linearVelocity *= 50
         }
     }
     
@@ -181,6 +182,7 @@ class Cell: RigidBody {
         if collidingObject is Enemy {
             if ready {
                 (getScene() as! GameScene).newCell()
+                collidingObject.removeSelf()
             } else {
                 (getScene() as! GameScene).lose()
             }

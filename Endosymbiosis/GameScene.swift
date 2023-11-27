@@ -3,8 +3,9 @@ import Crynon
 import simd
 
 class GameScene: Crynon.Scene {
-    
-    var cell = Cell(missing: Int.random(in: 1...7))
+
+    var cell = Cell(missing: 1)
+    var enemy = Enemy(type: 1)
     var player = Player()
     var light = DirectionalLight()
     var skySphere = EnvironmentSphere("Sky")
@@ -12,10 +13,9 @@ class GameScene: Crynon.Scene {
     init() {
         super.init("GameScene")
         addChild(skySphere)
-        addPhysicsObject(cell)
+        newCell()
         skySphere.texture = "EnvironmentTexture"
         addCamera(player)
-        cell.setPos(simd_float3(0, 0, -5), teleport: true)
         addLight(light)
         light.direction = simd_float3(-1, -1, -1)
     }
@@ -23,11 +23,21 @@ class GameScene: Crynon.Scene {
     func newCell() {
         player.updateScore()
         removeChild(cell.uuid)
-        cell = Cell(missing: Int.random(in: 1...7))
-        cell.setPos(simd_float3(Float.random(in: -7...7),
-                                Float.random(in: -7...7),
-                                Float.random(in: -7...7)), teleport: true)
+        let type = Int.random(in: 1...7)
+        cell = Cell(missing: type)
+        let loc = simd_float3(Float.random(in: -7...7),
+                              Float.random(in: -7...7),
+                              Float.random(in: -7...7))
+        cell.setPos(loc, teleport: true)
         addPhysicsObject(cell)
+        
+        enemy = Enemy(type: type)
+        let enemyLoc = simd_float3(Float.random(in: -7...7),
+                                   Float.random(in: -7...7),
+                                   Float.random(in: -7...7))
+        enemy.setPos(enemyLoc, teleport: true)
+        enemy.linearVelocity = normalize(loc - enemyLoc) * Float(min(player.score, 1)) * 0.1
+        addPhysicsObject(enemy)
     }
     
     func lose() {

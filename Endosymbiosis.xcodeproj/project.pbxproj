@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		515642F72AF16A7200E1CB91 /* Crynon in Frameworks */ = {isa = PBXBuildFile; productRef = 515642F62AF16A7200E1CB91 /* Crynon */; };
+		5133F7392B1514820098B1A5 /* Crynon in Frameworks */ = {isa = PBXBuildFile; productRef = 5133F7382B1514820098B1A5 /* Crynon */; };
 		51F7BD882B11FD8400475561 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 51F7BD662B11FD8400475561 /* Localizable.xcstrings */; };
 		51F7BD892B11FD8400475561 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD672B11FD8400475561 /* CanvasView.swift */; };
 		51F7BD8A2B11FD8400475561 /* ViewCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD682B11FD8400475561 /* ViewCenter.swift */; };
@@ -42,7 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		515642E32AF167E900E1CB91 /* Endosymbiosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endosymbiosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515642E32AF167E900E1CB91 /* Endosymbiosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Endosymbiosis.app; path = "/Users/kuuttitaavitsainen/Documents/Xcode Projects/CrynonDemoGame/build/Debug/Endosymbiosis.app"; sourceTree = "<absolute>"; };
 		51F7BD662B11FD8400475561 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		51F7BD672B11FD8400475561 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		51F7BD682B11FD8400475561 /* ViewCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCenter.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				515642F72AF16A7200E1CB91 /* Crynon in Frameworks */,
+				5133F7392B1514820098B1A5 /* Crynon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,16 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				51F7BD652B11FD8400475561 /* Endosymbiosis */,
-				515642E42AF167E900E1CB91 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		515642E42AF167E900E1CB91 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				515642E32AF167E900E1CB91 /* Endosymbiosis.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		51F7BD652B11FD8400475561 /* Endosymbiosis */ = {
@@ -185,7 +176,7 @@
 			);
 			name = Endosymbiosis;
 			packageProductDependencies = (
-				515642F62AF16A7200E1CB91 /* Crynon */,
+				5133F7382B1514820098B1A5 /* Crynon */,
 			);
 			productName = CrynonDemoGame;
 			productReference = 515642E32AF167E900E1CB91 /* Endosymbiosis.app */;
@@ -217,9 +208,9 @@
 			);
 			mainGroup = 515642DA2AF167E900E1CB91;
 			packageReferences = (
-				517203672AF8160B007D07C3 /* XCLocalSwiftPackageReference "../Crynon/Crynon" */,
+				5133F7372B1514820098B1A5 /* XCLocalSwiftPackageReference "../Crynon/Crynon" */,
 			);
-			productRefGroup = 515642E42AF167E900E1CB91 /* Products */;
+			productRefGroup = 515642DA2AF167E900E1CB91;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -486,14 +477,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		517203672AF8160B007D07C3 /* XCLocalSwiftPackageReference "../Crynon/Crynon" */ = {
+		5133F7372B1514820098B1A5 /* XCLocalSwiftPackageReference "../Crynon/Crynon" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../Crynon/Crynon;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		515642F62AF16A7200E1CB91 /* Crynon */ = {
+		5133F7382B1514820098B1A5 /* Crynon */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Crynon;
 		};
