@@ -4,7 +4,7 @@ import simd
 
 class GameScene: Crynon.Scene {
     
-    var cell = Cell()
+    var cell = Cell(missing: Int.random(in: 1...7))
     var player = Player()
     var light = DirectionalLight()
     var skySphere = EnvironmentSphere("Sky")
@@ -21,12 +21,17 @@ class GameScene: Crynon.Scene {
     }
     
     func newCell() {
-        player.updateScore(add: 1)
+        player.updateScore()
         removeChild(cell.uuid)
-        cell = Cell()
+        cell = Cell(missing: Int.random(in: 1...7))
         cell.setPos(simd_float3(Float.random(in: -7...7),
                                 Float.random(in: -7...7),
                                 Float.random(in: -7...7)), teleport: true)
         addPhysicsObject(cell)
+    }
+    
+    func lose() {
+        player.score = 0
+        ViewCenter.shared.score = 0
     }
 }

@@ -23,8 +23,8 @@ class Player: Camera {
         InputManager.subscribe(client: self)
     }
     
-    func updateScore(add: Int) {
-        score += add
+    func updateScore() {
+        score += 1
         ViewCenter.shared.score = score
     }
     
@@ -95,6 +95,30 @@ class Player: Camera {
             }
         }
     }
+    
+    func updateSelected() {
+        if selected == 1 {
+            ViewCenter.shared.selected = "bacteria.nucleus"
+        }
+        if selected == 2 {
+            ViewCenter.shared.selected = "bacteria.mitochondrion"
+        }
+        if selected == 3 {
+            ViewCenter.shared.selected = "bacteria.cellWall"
+        }
+        if selected == 4 {
+            ViewCenter.shared.selected = "bacteria.chloroplast"
+        }
+        if selected == 5 {
+            ViewCenter.shared.selected = "bacteria.vacuole"
+        }
+        if selected == 6 {
+            ViewCenter.shared.selected = "bacteria.endoplasmicReticulum"
+        }
+        if selected == 7 {
+            ViewCenter.shared.selected = "bacteria.lysosome"
+        }
+    }
 }
 
 extension Player: EventInput {
@@ -106,7 +130,7 @@ extension Player: EventInput {
                 } else {
                     selected -= 1
                 }
-                ViewCenter.shared.selected = selected
+                updateSelected()
             }
             
             if key == .keyD || key == .rightArrow {
@@ -115,7 +139,7 @@ extension Player: EventInput {
                 } else {
                     selected += 1
                 }
-                ViewCenter.shared.selected = selected
+                updateSelected()
             }
         }
     }
@@ -133,7 +157,7 @@ extension Player: EventInput {
                 } else {
                     selected -= 1
                 }
-                ViewCenter.shared.selected = selected
+                updateSelected()
             }
             
             if button == .rightShoulder {
@@ -142,7 +166,7 @@ extension Player: EventInput {
                 } else {
                     selected += 1
                 }
-                ViewCenter.shared.selected = selected
+                updateSelected()
             }
         }
     }

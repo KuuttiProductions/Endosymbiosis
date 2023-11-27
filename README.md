@@ -6,6 +6,7 @@ In Endosymbiosis you learn about how cells were created billions of years ago.
 
 First, how Endosymbiosis even works. When cells "eat" other bacteria which don't get destroyed, they might start working together.
 Your mission is to feed cells bacteria that they can use to defend against natural causes. Every saved cell gives you a point to your score.
+You'll be given hint's for what to do next
 
 - Mouse or right thumstick to look around
 - Left click or left trigger to shoot

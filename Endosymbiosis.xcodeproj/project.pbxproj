@@ -38,6 +38,7 @@
 		51F7BDA32B11FD8400475561 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD852B11FD8400475561 /* Bacteria.swift */; };
 		51F7BDA42B11FD8400475561 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD862B11FD8400475561 /* GameScene.swift */; };
 		51F7BDA52B11FD8400475561 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BD872B11FD8400475561 /* Player.swift */; };
+		51F7BDA72B120A5F00475561 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7BDA62B120A5E00475561 /* Enemy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		51F7BD852B11FD8400475561 /* Bacteria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
 		51F7BD862B11FD8400475561 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		51F7BD872B11FD8400475561 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		51F7BDA62B120A5E00475561 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				51F7BD692B11FD8400475561 /* Cell.swift */,
 				51F7BD872B11FD8400475561 /* Player.swift */,
 				51F7BD682B11FD8400475561 /* ViewCenter.swift */,
+				51F7BDA62B120A5E00475561 /* Enemy.swift */,
 				51F7BD842B11FD8400475561 /* Endosymbiosis.entitlements */,
 				51F7BD812B11FD8400475561 /* Preview Content */,
 				51F7BD662B11FD8400475561 /* Localizable.xcstrings */,
@@ -267,6 +270,7 @@
 				51F7BD892B11FD8400475561 /* CanvasView.swift in Sources */,
 				51F7BD8A2B11FD8400475561 /* ViewCenter.swift in Sources */,
 				51F7BD8B2B11FD8400475561 /* Cell.swift in Sources */,
+				51F7BDA72B120A5F00475561 /* Enemy.swift in Sources */,
 				51F7BDA52B11FD8400475561 /* Player.swift in Sources */,
 				51F7BDA32B11FD8400475561 /* Bacteria.swift in Sources */,
 				51F7BDA22B11FD8400475561 /* CrynonDemoGameApp.swift in Sources */,

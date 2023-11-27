@@ -21,12 +21,15 @@ struct CanvasView: View {
                                               vertical: .top)) {
                     HStack {
                         Text("Selected: \(center.selected)")
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        Text(ViewCenter.shared.hint)
+                            .fontWeight(.semibold)
                         Text("Score: \(center.score)")
-
+                            .frame(maxWidth: .infinity, alignment: .trailing)
                     }
                     .font(.largeTitle)
                     .fontDesign(.rounded)
-                    .fontWeight(.semibold)
+                    .fontWeight(.medium)
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(.regularMaterial)
@@ -49,6 +52,7 @@ struct CanvasView: View {
                 Button {
                     inMenu = false
                     InputManager.captureMouse()
+                    InputManager.acceptInput()
                 } label: {
                     Label("menu.start", systemImage: "gamecontroller.fill")
                 }

@@ -17,6 +17,7 @@ class ViewCenter: ViewStateCenter {
     override init() {}
     
     var score: Int = 0
-    var selected: Int = 0
+    var selected: LocalizedStringResource = "bacteria.nucleus"
+    var hint: LocalizedStringResource = "hint.nucleus"
     
 }

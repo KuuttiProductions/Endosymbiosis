@@ -1,6 +1,230 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "bacteria.cellWall" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cell Wall"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soluseinä"
+          }
+        }
+      }
+    },
+    "bacteria.chloroplast" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chloroplast"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viherhiukkanen"
+          }
+        }
+      }
+    },
+    "bacteria.endoplasmicReticulum" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endoplasmic Reticulum"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solulimakalvosto"
+          }
+        }
+      }
+    },
+    "bacteria.lysosome" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lysosome"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lysosomi"
+          }
+        }
+      }
+    },
+    "bacteria.mitochondrion" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitochondrion"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitokondrio"
+          }
+        }
+      }
+    },
+    "bacteria.nucleus" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nucleus"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuma"
+          }
+        }
+      }
+    },
+    "bacteria.vacuole" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vacuole"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vakuoli"
+          }
+        }
+      }
+    },
+    "hint.cellwall" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bacteria attack!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bakteeri hyökkää!"
+          }
+        }
+      }
+    },
+    "hint.chloroplast" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sun light increasing"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auringon valo lisääntyy"
+          }
+        }
+      }
+    },
+    "hint.endoplasmicReticulum" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proteins needed"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarvitaan proteiineja"
+          }
+        }
+      }
+    },
+    "hint.lysosome" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unwanted bacteria inside!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haitallinen bakteeri sisällä!"
+          }
+        }
+      }
+    },
+    "hint.mitochondrion" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rising oxygen levels detected"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kasvava happitaso havaittu"
+          }
+        }
+      }
+    },
+    "hint.nucleus" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More complex genes required"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarvitaan kehittyneempiä geenejä"
+          }
+        }
+      }
+    },
+    "hint.vacuole" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Junk material piling up"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuona aineita kertyy"
+          }
+        }
+      }
+    },
     "menu.description" : {
       "localizations" : {
         "en" : {
@@ -81,7 +305,7 @@
         }
       }
     },
-    "Selected: %lld" : {
+    "Selected: %@" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -91,8 +315,8 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Valittu: %lld"
+            "state" : "needs_review",
+            "value" : "Valittu: %@"
           }
         }
       }
