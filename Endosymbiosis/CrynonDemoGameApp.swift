@@ -10,10 +10,10 @@ struct CrynonDemoGameApp: App {
     init() {
         core = Core()
         loadContent()
-        Crynon.Preferences.preferredFPS = 60
         Crynon.Preferences.useSkySphere = true
         Crynon.SceneManager.changeScene(GameScene())
         Crynon.InputManager.acceptInput(false)
+        Core.paused = true
     }
     
     func loadContent() {

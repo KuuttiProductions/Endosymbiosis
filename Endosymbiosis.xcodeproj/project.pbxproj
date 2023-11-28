@@ -42,7 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		515642E32AF167E900E1CB91 /* Endosymbiosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Endosymbiosis.app; path = "/Users/kuuttitaavitsainen/Documents/Xcode Projects/CrynonDemoGame/build/Debug/Endosymbiosis.app"; sourceTree = "<absolute>"; };
+		5133F73A2B15E8570098B1A5 /* Endosymbiosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endosymbiosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F7BD662B11FD8400475561 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		51F7BD672B11FD8400475561 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		51F7BD682B11FD8400475561 /* ViewCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCenter.swift; sourceTree = "<group>"; };
@@ -93,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				51F7BD652B11FD8400475561 /* Endosymbiosis */,
+				5133F73A2B15E8570098B1A5 /* Endosymbiosis.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,7 +180,7 @@
 				5133F7382B1514820098B1A5 /* Crynon */,
 			);
 			productName = CrynonDemoGame;
-			productReference = 515642E32AF167E900E1CB91 /* Endosymbiosis.app */;
+			productReference = 5133F73A2B15E8570098B1A5 /* Endosymbiosis.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

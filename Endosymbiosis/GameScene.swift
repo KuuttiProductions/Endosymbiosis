@@ -22,19 +22,25 @@ class GameScene: Crynon.Scene {
     
     func newCell() {
         player.updateScore()
-        removeChild(cell.uuid)
+        self.removeChild(cell.uuid)
         let type = Int.random(in: 1...7)
         cell = Cell(missing: type)
-        let loc = simd_float3(Float.random(in: -7...7),
+        var loc: simd_float3 = simd_float3(Float.random(in: -7...7),
+                                           Float.random(in: -7...7),
+                                           Float.random(in: -7...7))
+        while dot(normalize(loc), player.forwardVector) < 0.5 && distance(loc, player.position) < 3 {
+            loc = simd_float3(Float.random(in: -7...7),
                               Float.random(in: -7...7),
                               Float.random(in: -7...7))
+        }
         cell.setPos(loc, teleport: true)
         addPhysicsObject(cell)
         
         enemy = Enemy(type: type)
-        let enemyLoc = simd_float3(Float.random(in: -7...7),
+        var enemyLoc = simd_float3(Float.random(in: -7...7),
                                    Float.random(in: -7...7),
                                    Float.random(in: -7...7))
+        enemyLoc = loc + normalize(enemyLoc) * 10
         enemy.setPos(enemyLoc, teleport: true)
         enemy.linearVelocity = normalize(loc - enemyLoc) * Float(min(player.score, 1)) * 0.1
         addPhysicsObject(enemy)

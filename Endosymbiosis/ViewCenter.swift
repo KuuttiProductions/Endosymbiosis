@@ -18,6 +18,5 @@ class ViewCenter: ViewStateCenter {
     
     var score: Int = 0
     var selected: LocalizedStringResource = "bacteria.nucleus"
-    var hint: LocalizedStringResource = "hint.nucleus"
-    
+    var hint: LocalizedStringResource = "hint.nucleus"    
 }

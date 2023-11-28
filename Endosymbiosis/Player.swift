@@ -174,7 +174,9 @@ extension Player: EventInput {
     
     func drawMouseInput(button: Crynon.MouseButton, down: Bool) {
         if down {
-            shoot()
+            if button == .left {
+                shoot()
+            }
         }
     }
 }

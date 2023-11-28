@@ -25,8 +25,7 @@ struct CanvasView: View {
                         Text(ViewCenter.shared.hint)
                             .fontWeight(.semibold)
                         Text("Score: \(center.score)")
-                            .frame(maxWidth: .infinity, alignment: .trailing)
-                    }
+                            .frame(maxWidth: .infinity, alignment: .trailing)                    }
                     .font(.largeTitle)
                     .fontDesign(.rounded)
                     .fontWeight(.medium)
@@ -51,6 +50,7 @@ struct CanvasView: View {
                 .frame(minHeight: 100, idealHeight: 130, maxHeight: 500)
                 Button {
                     inMenu = false
+                    Core.paused = false
                     InputManager.captureMouse()
                     InputManager.acceptInput()
                 } label: {
