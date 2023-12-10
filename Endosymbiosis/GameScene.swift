@@ -28,7 +28,7 @@ class GameScene: Crynon.Scene {
         var loc: simd_float3 = simd_float3(Float.random(in: -7...7),
                                            Float.random(in: -7...7),
                                            Float.random(in: -7...7))
-        while dot(normalize(loc), player.forwardVector) < 0.5 && distance(loc, player.position) < 3 {
+        while dot(normalize(loc), player.forwardVector) < 0.7 && distance(loc, player.position) < 3 {
             loc = simd_float3(Float.random(in: -7...7),
                               Float.random(in: -7...7),
                               Float.random(in: -7...7))
@@ -42,7 +42,7 @@ class GameScene: Crynon.Scene {
                                    Float.random(in: -7...7))
         enemyLoc = loc + normalize(enemyLoc) * 10
         enemy.setPos(enemyLoc, teleport: true)
-        enemy.linearVelocity = normalize(loc - enemyLoc) * Float(min(player.score, 1)) * 0.1
+        enemy.linearVelocity = normalize(loc - enemyLoc) * Float(min(player.score, 1)) * 0.5
         addPhysicsObject(enemy)
     }
     

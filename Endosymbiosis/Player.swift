@@ -59,7 +59,7 @@ class Player: Camera {
         Bacteria.gravityScalar = 0.0
         
         getScene().addPhysicsObject(Bacteria)
-        (getScene() as! GameScene).enemy.linearVelocity *= 2
+        (getScene() as! GameScene).enemy.linearVelocity *= 3
     }
     
     override func tickCustom(_ deltaTime: Float) {
